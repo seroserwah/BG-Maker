@@ -257,7 +257,7 @@
         <button class="btnGhost" id="btnRandomStructure">Structure <span class="kbd">S</span></button>
       </div>
     </div>
-    <div class="rollsRow"><span>Rolls&nbsp; <span id="rollsCount">0</span></span><button class="clearBtn" id="btnClearHistory">Clear</button></div>
+    <div class="rollsRow"><span>Recent&nbsp; <span id="rollsCount">0</span></span><button class="clearBtn" id="btnClearHistory">Clear</button></div>
     <div id="history"></div>
     <div id="exportPanel">
       <div class="sectionLabel">Export</div>
@@ -359,7 +359,7 @@ function defaultLayer(n){
     seed: Math.random()*1000,
     locks:{ shape:false, peaks:true, direction:true, mirror:true, phase:true, count:false, minDepth:true, curveExp:true, jitter:true, widthCurve:true, gap:true, rounding:true },
     colour:{
-      stops:[ {id:uid(),pos:0,hex:'#eaf6f4',alpha:100}, {id:uid(),pos:0.5,hex:'#0d3b3a',alpha:100}, {id:uid(),pos:1,hex:'#0d3b3a',alpha:0} ],
+      stops:[ {id:uid(),pos:0,hex:'#ffffff',alpha:100}, {id:uid(),pos:0.5,hex:'#5A42E6',alpha:100}, {id:uid(),pos:1,hex:'#000000',alpha:0} ],
       mapping:'per-bar', steps:0, hueDrift:1, variety:0.9, selected:0,
       locks:{ mapping:true, steps:false, hueDrift:true, variety:false }
     }
